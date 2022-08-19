@@ -68,7 +68,7 @@ class Sale(Base):
 
 
 def create_tables(engine):
-    Base.metadate.create_all(engine)
+    Base.metadata.create_all(engine)
 
 
 
